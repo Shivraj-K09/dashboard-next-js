@@ -18,13 +18,13 @@ export const UserClient: React.FC<ProductsClientProps> = ({ data }) => {
 
   return (
     <>
-      <div className="flex items-start justify-between">
+      <div className="flex md:flex-row sm:flex-col items-start justify-between">
         <Heading
           title="Graph List"
           description="Manage your graphs here update delete and more."
         />
         <Button
-          className="text-xs md:text-sm text-white bg-gradient-to-r from-blue-700 to-teal-500 hover:from-blue-700 hover:to-teal-400"
+          className="text-xs md:text-sm text-white md:mt-0 sm:mt-[20px] bg-gradient-to-r from-blue-700 to-teal-500 hover:from-blue-700 hover:to-teal-400"
           onClick={() => router.push(`/create`)}
         >
           <Plus className="mr-2 h-4 w-4 " /> Create New Graph
