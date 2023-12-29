@@ -121,7 +121,7 @@ export const ProfileForm = () => {
                 >
                   <FormControl>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select a verified email to display" />
+                      <SelectValue placeholder="Select a mail" />
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
